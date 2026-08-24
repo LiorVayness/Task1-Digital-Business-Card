@@ -22,6 +22,7 @@ body {
   color: var(--text);
   direction: ltr;
   line-height: 1.6;
+  overflow-x: hidden;
   transition: background-color 200ms ease, color 200ms ease;
 }
 
@@ -114,6 +115,7 @@ h1 {
 }
 
 .profile-image {
+  display: block;
   position: relative;
   width: 100%;
   height: 320px;
@@ -222,6 +224,7 @@ body:has(.theme-toggle:checked) {
 
   .profile-image {
     max-width: 260px;
+    margin: 0 auto;
   }
 
 }
